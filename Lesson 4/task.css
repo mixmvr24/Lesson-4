@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+}
+
+.maket{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    z-index: 6;
+}
+
+.square-first{
+    border: 1px solid rgb(129, 177, 235);
+    background-color: rgb(129, 177, 235);
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
+.square-first:hover{
+    background-color: gray;
+    z-index: 1;
+}
+
+.square-second{
+    border: 1px solid hsl(34, 85%, 44%);
+    background-color: hsl(34, 85%, 44%);
+    border-radius: 10%;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 39%;
+    left: 40%;
+}
+
+.circle-left-top{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: -1;
+}
+
+.circle-left-top:hover{
+    background-color: indigo;
+    z-index: 2;
+}
+
+.circle-right-top{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    z-index: -1;
+}
+
+.circle-right-top:hover{
+    background-color: forestgreen;
+    z-index: 2;
+}
+
+.circle-left-bottom{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    z-index: -1;
+}
+
+.circle-left-bottom:hover{
+    background-color: rgb(199, 175, 38);
+    z-index: 2;
+}
+
+.circle-right-bottom{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+    z-index: -1;
+}
+
+.circle-right-bottom:hover{
+    background-color: rgb(46, 24, 24);
+    z-index: 2;
+}
