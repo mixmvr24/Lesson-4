@@ -35,16 +35,19 @@ body{
     left: 40%;
 }
 
-.circle-left-top{
+.circle-left-top , .circle-right-top , .circle-left-bottom , .circle-right-bottom{
     border: 1px solid red;
     background-color: red;
     border-radius: 100%;
     width: 20%;
     height: 20%;
+    z-index: -1;
+}
+
+.circle-left-top{
     position: absolute;
     top: 15%;
     left: 15%;
-    z-index: -1;
 }
 
 .circle-left-top:hover{
@@ -53,15 +56,9 @@ body{
 }
 
 .circle-right-top{
-    border: 1px solid red;
-    background-color: red;
-    border-radius: 100%;
-    width: 20%;
-    height: 20%;
     position: absolute;
     top: 15%;
     right: 15%;
-    z-index: -1;
 }
 
 .circle-right-top:hover{
@@ -70,15 +67,9 @@ body{
 }
 
 .circle-left-bottom{
-    border: 1px solid red;
-    background-color: red;
-    border-radius: 100%;
-    width: 20%;
-    height: 20%;
     position: absolute;
     bottom: 15%;
     left: 15%;
-    z-index: -1;
 }
 
 .circle-left-bottom:hover{
@@ -87,15 +78,9 @@ body{
 }
 
 .circle-right-bottom{
-    border: 1px solid red;
-    background-color: red;
-    border-radius: 100%;
-    width: 20%;
-    height: 20%;
     position: absolute;
     bottom: 15%;
     right: 15%;
-    z-index: -1;
 }
 
 .circle-right-bottom:hover{
